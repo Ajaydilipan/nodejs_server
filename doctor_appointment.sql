@@ -44,7 +44,7 @@ CREATE TABLE `patients` (
 
 LOCK TABLES `patients` WRITE;
 /*!40000 ALTER TABLE `patients` DISABLE KEYS */;
-INSERT INTO `patients` VALUES (1,'John Doe',28,'Male','Consult','06:00 PM','2 Feb 2021','+91 987654321','Dr. Ananth'),(2,'Mukul Rao',28,'Male','Revisit','06:00 PM','2 Feb 2021','+91 987654321','Dr. Ananth'),(3,'Neeraj Sharma',28,'Male','Consult','06:00 PM','2 Feb 2021','+91 987654321','Dr. Ananth'),(11,'Manjunath Arun Naik',22,'Male','Revisit','06:00 PM','2 Feb 2021','+91 932228949','Dr. Ananth'),(12,'Subbu Raja',22,'Male','Consult','10:00 AM','10-12-2022','9012345678','Dr. Raman'),(13,'Raj Kanna',31,'Male','Consult','13:00 PM','12-12-2022','8360285211','Dr. Viswa');
+INSERT INTO `patients` VALUES (1,'Ajay ',21,'Male','Consult','06:00 PM','25-12-2022','+91 8270636664','Dr. Ananth'),(2,'Ritesh',28,'Male','Revisit','07:00 PM','25-12-2022','+9345021341 ','Dr. Ananth'),(3,'Waheed',23,'Male','Consult','03:00 PM','26-12-2022','+91 987654321','Dr. Ananth'),(4,'Rahul',23,'Male','Revisit','04:00 PM','26-12-2022','+91 932228949','Dr. Ananth'),(5,'Saurabh',25,'Male','Consult','10:00 AM','26-12-2022','9012345678','Dr. Raman'),(6,'Malleswari',21,'Female','Consult','01:00 PM','27-12-2022','9780174232','Dr.Ashwini'),(7,'Pooja',22,'Female','Consult','5:00 PM','27-12-2022','8360285211','Dr.Ashwini');
 /*!40000 ALTER TABLE `patients` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
